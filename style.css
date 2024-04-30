@@ -1,0 +1,88 @@
+html,
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #8c00c4;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1000;
+}
+button {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+#sidebar p {
+  margin-left: 25px;
+}
+#sidebar ul {
+  margin-left: 25px;
+  list-style: none;
+}
+#sidebar {
+  background-color: rgb(79, 0, 110);
+  position: sticky;
+  top: 35px;
+  padding: 10px;
+  width: 200px;
+  height: 100dvh;
+  float: left;
+}
+
+img {
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 100px;
+  border-radius: 99px;
+  border: solid 2px white;
+}
+
+.infos div {
+  border-radius: 20px;
+  background-color: #686868;
+  margin: 20px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.infos {
+  color: rgb(228, 228, 228);
+  display: grid;
+}
+#nome {
+  margin-left: 565px;
+}
+.links ul {
+  padding: 0px;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 23px;
+  list-style: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+ion-icon {
+  color: rgb(0, 0, 0);
+}
+h1,
+h2,
+h3,
+h4,
+ h5{
+  font-size: 25px;
+  color: rgb(210, 142, 255);
+}
